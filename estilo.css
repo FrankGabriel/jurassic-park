@@ -3,6 +3,8 @@
     align-items: center; /* centraliza verticalmente */
     justify-content: center; /* centraliza verticalmente */
     padding: 10px;
+    
+    margin: collapse;
 }
 .header-container img{
     max-height: 100px;
@@ -11,7 +13,7 @@
 .header-container h1{
     font-size: 50px;
     padding: 1px;
-    text-shadow: 2px 2px 5px rgba(255, 255, 255,1); /* Adiciona sombra ao texto */
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 01); /* Adiciona sombra ao texto */
 }
 
 .body{
