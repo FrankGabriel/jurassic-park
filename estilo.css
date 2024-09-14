@@ -1,0 +1,75 @@
+.header-container{
+    display: flex; /* Alinha os itens do header na mesma linha*/
+    align-items: center; /* centraliza verticalmente */
+    justify-content: center; /* centraliza verticalmente */
+    padding: 10px;
+}
+.header-container img{
+    max-height: 100px;
+}
+
+.header-container h1{
+    font-size: 50px;
+    padding: 1px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5); /* Adiciona sombra ao texto */
+}
+
+.body{
+    background-image: url("background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+ 
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    
+}
+
+.div-principal{
+    background-color: aliceblue;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    border: 3px;
+    border-radius: 15px;
+    
+    
+}
+
+.div-filme{
+    display: flex;
+    border: none;    
+}
+
+.div-filme img{
+    border-radius: 6px;
+}
+.div-filme div{
+    padding-right: 20px;
+    
+}
+
+.div-filme-premios {
+    
+    text-align: center;
+    table-layout: auto ;
+} 
+
+.div-filme-assistir img{
+    border-radius: 9px;
+    width: 60px;
+    height: 60px;
+}
+.div-filme-assistir div{
+    display: flex;
+    padding-right: 15px;
+    
+
+}
